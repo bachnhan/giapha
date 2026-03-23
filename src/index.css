@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;900&family=Manrope:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Noto Serif", serif;
+  --font-body: "Manrope", sans-serif;
+  --font-label: "Manrope", sans-serif;
+
+  --color-primary: #6b0008;
+  --color-primary-container: #8d1b1b;
+  --color-secondary: #7b5800;
+  --color-secondary-container: #fdc34d;
+  --color-tertiary: #452c26;
+  --color-tertiary-container: #5d423b;
+  --color-background: #fdf9f3;
+  --color-surface: #fdf9f3;
+  --color-surface-container-low: #f7f3ed;
+  --color-surface-container-high: #ebe8e2;
+  --color-surface-container-highest: #e6e2dc;
+  --color-on-surface: #1c1c18;
+  --color-on-surface-variant: #58413f;
+  --color-outline-variant: #e0bfbc;
+  --color-primary-fixed: #ffdad6;
+  --color-primary-fixed-dim: #ffb3ac;
+  --color-secondary-fixed: #ffdea6;
+  --color-secondary-fixed-dim: #f7bd48;
+  --color-tertiary-fixed: #ffdad2;
+  --color-tertiary-fixed-dim: #e5beb5;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-surface font-body;
+  }
+}
+
+@layer utilities {
+  .lacquered-gradient {
+    background: linear-gradient(45deg, #6b0008 0%, #8d1b1b 100%);
+  }
+  
+  .ancestral-bg {
+    background-color: #fdf9f3;
+    background-image: radial-gradient(#e0bfbc 0.5px, transparent 0.5px);
+    background-size: 24px 24px;
+  }
+
+  .glass-header {
+    @apply bg-surface/85 backdrop-blur-lg;
+  }
+}

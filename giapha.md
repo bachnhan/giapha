@@ -1,0 +1,4 @@
+1. Ông nội, Bà Nội
+2. Con gái thứ nhất, con trai thứ hai, con trai thứ ba, con trai thứ tư, con gái thứ năm, con trai thứ sáu, con gái thứ bảy, con trai thứ tám, con trai thứ chín
+3. Con gái thứ nhất có 3 con gái, con trai thứ hai có 1 trai, 1 gái rồi 1 trai, con trai thứ ba có 2 con trai, con trai thứ tư có 1 trai rồi 1 gái, con gái thứ năm có 1 trai rồi 1 gái, con trai thứ sáu có 2 con trai, con gái thứ bảy có 2 con gái, con trai thứ tám có 3 con trai, con trai thứ chín có 2 con gái
+4. Con gái thứ nhất của con gái thứ nhất có 2 con gái, con gái thứ 2 của con gái thứ nhất có 1 trai rồi 1 gái, con gái thứ 3 của con gái thứ nhất có 1 trai rồi 1 gái, con trai thứ nhất của con trai thứ hai có 1 con gái, con trai thứ nhất của con gái thứ năm có 1 con gái

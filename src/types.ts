@@ -1,4 +1,4 @@
-export type Screen = 'profile' | 'genealogy' | 'events' | 'contributions';
+export type Screen = 'profile' | 'genealogy' | 'events';
 
 export interface Member {
   id: string;
@@ -29,12 +29,4 @@ export interface Event {
   type: 'DAI_LE_TOC' | 'NOI_BO' | 'GIAO_DUC';
   preparation: string[];
   program: string[];
-}
-
-export interface Contribution {
-  id: string;
-  member: string;
-  content: string;
-  date: string;
-  status: 'APPROVED' | 'PENDING';
 }
